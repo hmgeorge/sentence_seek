@@ -1,0 +1,15 @@
+		speech			bgmusic		OVERALL
+	C 	PRE	REC	F1 	PRE	REC	F1 	ACC	F1
+	0.001 	89.5	92.2	90.8 	91.9	89.2	90.5 	90.7	90.7
+	0.010 	93.1	94.2	93.7 	94.1	93.1	93.6 	93.6	93.6
+	0.500 	94.9	94.0	94.5 	94.1	95.0	94.5 	94.5	94.5 	 best F1 	 best Acc
+	1.000 	94.5	93.4	93.9 	93.5	94.5	94.0 	94.0	94.0
+	5.000 	93.8	93.2	93.5 	93.2	93.9	93.5 	93.5	93.5
+	10.000 	93.2	93.2	93.2 	93.2	93.2	93.2 	93.2	93.2
+Confusion Matrix:
+	spe 	bgm
+spe 	47.0 	3.0
+bgm 	2.5 	47.5
+
+Key differentiating factor seems to be using a slightly larger window (100-200ms)
+and mt features
